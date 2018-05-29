@@ -1,0 +1,6 @@
+[webapp-servers]
+192.168.1.50
+
+[vars:all]
+ansible-ssh-username="user1"
+ansible-ssh-password="password1"

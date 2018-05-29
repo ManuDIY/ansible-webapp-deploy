@@ -1,0 +1,8 @@
+---
+hosts: webapp-servers
+tasks:
+  - name: Copy files to remote host
+    git:
+      repo: 
+      dest: /var/www/html
+      version: '1.0.0'

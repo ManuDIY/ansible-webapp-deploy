@@ -1,0 +1,10 @@
+---
+hosts: webapp-servers
+tasks:
+  - name: Copy files to remote host
+    copy:
+      src: /my/files
+      dest: /var/www/html
+      owner: www-data
+      group: www-data
+    
